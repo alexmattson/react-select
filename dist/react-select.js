@@ -1964,6 +1964,7 @@ var Async = function (_Component) {
 				this._callback = null;
 
 				this.setState({
+					isLoading: false,
 					options: cache[inputValue]
 				});
 
